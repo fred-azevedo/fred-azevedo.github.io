@@ -26,6 +26,10 @@ body {
 	text-align: center;
 }
 
+.content-buttons {
+	padding-bottom: 10px;
+}
+
 .profile-pic {
 	float: left;
     padding-left: 42px;
