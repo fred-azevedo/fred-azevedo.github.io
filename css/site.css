@@ -11,7 +11,7 @@ body {
 	width: 760px;
 	margin: 0 auto;
     background-color: rgba(255,255,255,0.8);
-    padding: 5px;
+    padding: 5px 25px;
     border-radius: 10px;
     overflow: auto;
 }
@@ -27,17 +27,17 @@ body {
 }
 
 .content-buttons {
-	padding-bottom: 15px;
+	padding: 15px 0px;
 	text-align: center;
 }
 
 .index-posts {
-	padding: 0px 20px;
+	padding: 0px;
 }
 
 .profile-pic {
 	float: left;
-    padding-left: 42px;
+    padding-left: 22px;
     padding-top: 15px;
 }
 
@@ -49,11 +49,11 @@ body {
 
 hr.info-line {
 	border: 1px solid #bcbcbc;
+	margin: 0px;
 }
 
 hr.main-line {
 	border: 1px solid #ccc7c7;
-    width: 95%;
 }
 
 p.info-name{
@@ -67,6 +67,7 @@ ul.info-specs {
 	font-size: 18px;
 	list-style-type: none;
 	padding-left: 0px;
+	margin: 7px 0px;
 }
 
 ul.info-specs > li {
@@ -74,4 +75,12 @@ ul.info-specs > li {
 	background-position: 1%;
     padding-left: 18px;
 	margin: 5px 0px;
+}
+
+.post {
+	padding: 25px 0px;
+}
+
+.post > h1 {
+	font-size: 45px;
 }
