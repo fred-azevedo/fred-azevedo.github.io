@@ -84,3 +84,8 @@ ul.info-specs > li {
 .post > h1 {
 	font-size: 45px;
 }
+
+info.post-datetime {
+	font-size: 12px;
+    color: #a0a0a0;
+}
