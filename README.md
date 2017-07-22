@@ -1,3 +1,3 @@
-# README #
+# fred-azevedo.github.io #
 
-fred-azevedo.com Website
+Source for my personal website http://fred-azevedo.com
