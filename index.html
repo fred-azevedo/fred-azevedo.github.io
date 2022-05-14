@@ -2,14 +2,3 @@
 layout: default
 ---
 {% include buttons.html %}
-
-<hr class="main-line" />
-
-<div class="index-posts">
-	{% for post in site.posts %}
-	      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-	      {{ post.excerpt }}
-	      <a href="{{ post.url }}">Read more...</a>
-	      <br /	><br /	>
-	{% endfor %}
-</div>
